@@ -4,12 +4,9 @@ public class FibonacciSeries {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		System.out.println("Number of Fibonancci series to be printed: ");
 		Scanner scan= new Scanner(System.in);
-		
 		int EndNumber=scan.nextInt();
-		
 		int x=0,y=1,z=0;
 		System.out.print(x+",");
 		System.out.print(y+",");
@@ -24,7 +21,5 @@ public class FibonacciSeries {
 			System.out.print(z+",");
 		}
 		scan.close();
-		
 	}
-
 }
