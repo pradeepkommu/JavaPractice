@@ -10,6 +10,7 @@ public class ReverseNumber {
 			newNumber=newNumber/10;
 		}
 		System.out.println("Reverse of a number is :"+rev);
+		System.out.println("Reverse of a number is :"+rev);
 		scan.close();
 	}
 }
