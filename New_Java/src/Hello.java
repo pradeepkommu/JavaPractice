@@ -7,7 +7,7 @@ public class Hello {
 		System.out.println("Please enter the string");
 		Scanner scan = new Scanner(System.in);
 		String newString= scan.nextLine();
-		System.out.println("Hello : "+newString);
+		//\u000d System.out.println("Hello : "+newString);
 		scan.close();
 	}
 	
