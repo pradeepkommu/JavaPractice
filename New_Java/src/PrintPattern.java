@@ -11,7 +11,7 @@ public class PrintPattern {
 		String temp="";
 		
 		for(int i=1;i<=num;i++) {
-			temp=temp+i;
+			temp=temp+" "+i;
 			System.out.print(temp);
 			System.out.println();
 		}
@@ -20,3 +20,12 @@ public class PrintPattern {
 	}
 
 }
+
+/*
+1
+12
+123
+1234
+12345
+123456
+*/

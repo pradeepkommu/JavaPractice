@@ -6,10 +6,13 @@ public class PrintPatternReverse {
 		// TODO Auto-generated method stub
 		System.out.println("Please enter the Number");
 		Scanner scan = new Scanner(System.in);
-		int startnum= scan.nextInt();
-		for(int i=startnum;i>=0;i--) {
-			for(int j=i;j>0;j--) {
-				System.out.print(j);
+		//int startnum= scan.nextInt();
+		int startnum= 5;
+		
+		
+		for(int i=1;i<=startnum;i++) {
+			for(int j=startnum;j<i;j++) {
+				System.out.print(j+" ");
 			}
 			System.out.println();
 		}
@@ -17,3 +20,13 @@ public class PrintPatternReverse {
 	}
 
 }
+
+
+/*
+654321
+54321
+4321
+321
+21
+1
+*/
